@@ -1,26 +1,9 @@
-# Troubleshooting-EA-portal-invalid-user-error
+title: Troubleshooting EA portal invalid user error
 ---
-title: How to prepare Paneer Butter Masala?
----
-![image](./images/Paneer-Butter-Masala.jpg)
-[^1]
 
-### Table of Content
-
- --- 
-- [About the recipe](#about-the-recipe)
-- [Ingredients required for preparation](#ingredients-required-for-preparation)
-- [Preparation of Paneer Butter Masala](#preparation-of-paneer-butter-masala)
-	- [Pre-requisites](#pre-requisites)
-	- [Step by Step instructions](#step-by-step-instructions)
-- [Tips for best results](#tips-for-best-results) 
-- [Nutrition Value](#nutrition-value)
- 
----
-### About the recipe:
-Paneer Butter Masala is one of the most popular Indian curries made of Paneer (cottage cheese) or tofu. This dish has a mild tinge of sweetness along with its creamy texture.
+This document includes basic troubleshooting steps that can be performed by customer to fix *invalid user* error before engaging Microsoft support.
 <br>
-
+![image](./images/Paneer-Butter-Masala.jpg)
 > **Note:** This recipe takes approximately *35 minutes* to be prepared and below mentioned measurements could suffice 3 servings.
 
 ---
