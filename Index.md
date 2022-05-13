@@ -1,79 +1,55 @@
 title: Troubleshooting EA portal invalid user error
 ---
+### Troubleshooting EA portal invalid user error:
 
-This document includes basic troubleshooting steps that can be performed by customer to fix *invalid user* error before engaging Microsoft support.
+This document includes basic troubleshooting steps that can be performed by customer to fix ***invalid user*** error before engaging Microsoft support.
 <br>
-![image](./images/Paneer-Butter-Masala.jpg)
-> **Note:** This recipe takes approximately *35 minutes* to be prepared and below mentioned measurements could suffice 3 servings.
 
+![image](./images/image1.jpg)
 ---
+### Table of Content
 
-### Ingredients required for preparation:
+ --- 
+- [Troubleshooting steps](#troubleshooting-steps)
+	- [user account added with wrong authentication type](#user-account-added-with-wrong-authentication-type)
+	- [Unable to access personal account in InPrivate session](#unable-to-access-personal-account-in-inprivate-session)
+- [Engaging Azure enterprise agreement support team](#engaging-azure-enterprise-agreement-support-team) 
 
- **Items** | **Quantity**
- --- | --- 
- Paneer | 250 grams 
- Tomato | 5 (medium sized) 
- Onion | 2 (medium sized) 
- Garlic cloves | 8 - 10 number 
- Ginger | 1 inch size 
- Cashews | 15 - 20 number 
- Butter | 3 tablespoons 
- Cooking oil | 2 tablespoons 
- Chilli Powder | 1 tablespoon 
- Salt | as per taste 
- Coriander | finely chopped to garnish 
- 
-### Preparation of Paneer Butter Masala:
 
-Below are the preliminary steps to be taken before starting the recipe:
+### Troubleshooting steps:
 
-#### Pre-requisites:
-- 	Soak cashews in lukewarm water for *20 minutes*.
--	Chop *250 grams* paneer into bite size cubes.
--	Peel ginger skin and finely chop the peeled ginger and garlic cloves.
--	Coarsely slice Onion and roughly chop Tomato.
+One of the most common reasons why a customer is unable to access EA portal is that the user might have same ***Microsoft account*** (personal account) as ***Work or school account***. In this scenario, below are the recommended steps to be followed,
 
-#### Step by Step instructions:
-1.	Heat 2 tablespoon Oil in a pan over medium flame and add finely chopped Garlic and Ginger. Sauté for a minute until the raw flavour disappears.
-2.	Add sliced Onion, chopped Tomato, soaked Cashews to the same pan and sauté occasionally until Tomato softens and cover the pan for about *5 - 7 minutes*. 
-3.	After 5 - 7 minutes, remove the pan out of heat and let it cool down to room temperature followed by blending the mixture into a smooth paste.
-4.	Melt 3 tablespoon Butter in the same pan and add 1 tablespoon chilli powder. 
-5.	Add the smooth paste to the pan, add salt to taste and stir the curry for a minute.
-6.	Cover the pan with a lid for about *10 minutes*.
-7.	After 10 minutes open the lid, add chopped paneer, and cook for about 3-5 minute. 
-8.	Remove the curry from heat and garnish with freshly chopped coriander. 
-9.	Delicious Paneer Butter Masala is ready to be served.
-
-### Tips for best results:
-
-- Tomato is one of the key ingredients, so ensure to use red, ripe, and firm tomatoes.
-- We can always use fresh store-bought paneer, but, for best flavour and taste it is recommended to use homemade paneer. You can use [this](https://www.youtube.com/watch?v=A9bwHBikW8o) as reference[^2] for preparing homemade paneer.
-- Paneer cubes can be fried and added to the curry for extra crispness. 
-- It is recommended to use Kashmiri chilli powder for bright orangish-red colour, apart from this ripe red tomatoes also contribute towards lovely orangish-red colour.
-- Due to shortage of time if Cashews cannot be pre-soaked in water, we can replace it with finely powdered Cashews and add it when blending Tomato and Onion.
-
-### Nutrition Value:
-
-Below is an approximate estimation of the nutritional value of the recipe. This dish contains a total of ***465kcal*** *for 1 serving.*
-
---- | ---
-Carbohydrates | *12g*
-Protein | *14.6g*
-Fat | *40.3g*
-Saturated Fat | *11g*
-Cholesterol | *48mg*
-Sodium | *859mg*
-Potassium | *296mg*
-Fibre | *2.3g*
-Sugar | *3.7g*
-Calcium | *30mg*
-Iron | *1.1mg*
-
----
-#### Footnote:
-
-[^1]: Image source - Google.
-[^2]: Homemade paneer preparation video courtesy - Hebbars Kitchen
-
+1. Determine the way account is set-up in EA portal. In general, account will be set-up in EA portal either as work or school account or as Microsoft account. 	      This can be confirmed by EA administrator. 
+2. Upon confirming the account type, clear browser cache and open an in-private (incognito) browser and try to access [enterprise portal](https://ea.azure.com/).
+3. In case if same account is set-up as both Work or school account and Microsoft account, ensure to choose the correct account type. <br>
+	-Choose ***Work or school account*** in case if the account is added as work or school account in enerprise portal.<br>
+	-Choose ***Personal account*** in case if the account is added as Microsoft account in EA portal. 
 	
+Below is a reference screenshot.
+
+<img src="./images/image2.jpg" alt="image2" style="width:500px;" style="height:500px;"/>
+
+Choosing correct authentication type when logging into EA portal by following the troubleshooting steps often will fix the issue. However, below are the two possible challenges that an user can encounter when trying to follow the troubleshooting steps.
+
+### User account added with wrong authentication type:
+
+Consider user is account owner for a subscription in an EA enrolment and is unable to access the EA portal. Please check with the EA admin if the account was added correctly with correct authentication type. If the user who is unable to access the EA portal is EA admin, reach out to another EA admin to add the correct account if user is the only EA admin support can make the changes on behalf of user.
+
+### Unable to access Personal account in InPrivate session:
+
+In general, EA portal only accepts account with primary aliases. Consider customer account is added as Microsoft account in EA portal and when user is trying to perform step 3, if Personal account option is failing in *InPrivate* session, please follow the below steps:
+
+1.	Confirm if user has access to https://account.live.com with the chosen Personal Account.
+2.	In case of multiple Microsoft accounts, ensure to have the account in EA portal added as primary alias by following the below steps: <br>
+
+
+	- Login to https://account.live.com  and select ***Your Info*** tab and click on ***Edit account info*** as highlighted below <br>
+![image](./images/image3.jpg)
+	- Update the account added in the EA portal as primary alias as shown below
+![image](./images/image4.jpg)
+	- Confirm if you can now access the EA Portal.
+
+### Engaging Azure enterprise agreement support team:
+
+When Customer account is added as Microsoft account in EA portal where customer is able to access https://account.live.com as the primary alias to confirm the access and still unable to access EA portal then follow the steps given in [this](https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fazure-portal%2Fcapture-browser-trace&data=04%7C01%7Cdkrishnaveni%40microsoftsupport.com%7C3b82329f6b9b4ae019f608da03672bd6%7Cb4c546a47dac46a6a7dded822a11efd3%7C0%7C0%7C637826038903625296%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=QB1wwYhFZHKRFBE%2BEyfmNN6JTfw0uzYXcp1%2BV87GlSU%3D&reserved=0) document to collect the network browser trace and engaging Microsoft support team by [creating an azure support request](https://docs.microsoft.com/en-us/azure/azure-portal/supportability/how-to-create-azure-support-request) for further assistance.
