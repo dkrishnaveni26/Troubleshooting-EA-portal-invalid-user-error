@@ -1,5 +1,3 @@
-
----
 ## Troubleshooting EA portal invalid user error:
 
 This document includes basic troubleshooting steps that can be performed by customer to fix ***invalid user*** error before engaging Microsoft support.
