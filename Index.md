@@ -45,8 +45,10 @@ In general, EA portal only accepts account with primary aliases. Consider custom
 
 
 	- Login to https://account.live.com  and select ***Your Info*** tab and click on ***Edit account info*** as highlighted below <br>
+
 ![image](./images/image3.jpg)
 	- Update the account added in the EA portal as primary alias as shown below
+
 ![image](./images/image4.jpg)
 	- Confirm if you can now access the EA Portal.
 
