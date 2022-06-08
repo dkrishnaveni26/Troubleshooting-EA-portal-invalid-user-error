@@ -1,4 +1,4 @@
-### Troubleshooting EA portal invalid user error:
+## Troubleshooting EA portal invalid user error:
 
 This document includes basic troubleshooting steps that can be performed by customer to fix ***invalid user*** error before engaging Microsoft support.
 <br>
@@ -12,7 +12,6 @@ This document includes basic troubleshooting steps that can be performed by cust
 	- [user account added with wrong authentication type](#user-account-added-with-wrong-authentication-type)
 	- [Unable to access personal account in InPrivate session](#unable-to-access-personal-account-in-inprivate-session)
 - [Engaging Azure enterprise agreement support team](#engaging-azure-enterprise-agreement-support-team) 
-
 
 ### Troubleshooting steps:
 
@@ -42,7 +41,6 @@ In general, EA portal only accepts account with primary aliases. Consider custom
 
 1.	Confirm if user has access to https://account.live.com with the chosen Personal Account.
 2.	In case of multiple Microsoft accounts, ensure to have the account in EA portal added as primary alias by following the below steps: <br>
-
 
 	- Login to https://account.live.com  and select ***Your Info*** tab and click on ***Edit account info*** as highlighted below <br>
 
