@@ -34,7 +34,7 @@ Choosing correct authentication type when logging into EA portal by following th
 
 Consider user is account owner for a subscription in an EA enrolment and is unable to access the EA portal. Please check with the EA admin if the account was added correctly with correct authentication type. If the user who is unable to access the EA portal is EA admin, reach out to another EA admin to add the correct account if user is the only EA admin support can make the changes on behalf of user.
 
-### Unable to access Personal account in InPrivate session:
+### Unable to access Personal account in InPrivate session: 
 
 In general, EA portal only accepts account with primary aliases. Consider customer account is added as Microsoft account in EA portal and when user is trying to perform step 3, if Personal account option is failing in *InPrivate* session, please follow the below steps:
 
