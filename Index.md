@@ -29,7 +29,7 @@ Below is a reference screenshot.
 <img src="./images/image2.jpg" alt="image2" style="width:500px;" style="height:500px;"/>
 </p>
 
-Choosing correct authentication type when logging into EA portal by following the troubleshooting steps often will fix the issue. However, below are the two possible challenges that an user can encounter when trying to follow the troubleshooting steps.
+Choosing correct authentication type when logging into EA portal by following the troubleshooting steps often will fix the issue. However, below are the two possible challenges that an user can encounter when trying to follow the troubleshooting steps. 
 
 ### User account added with wrong authentication type:
 
