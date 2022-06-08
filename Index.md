@@ -26,7 +26,9 @@ One of the most common reasons why a customer is unable to access EA portal is t
 	
 Below is a reference screenshot.
 
+<p align="center">
 <img src="./images/image2.jpg" alt="image2" style="width:500px;" style="height:500px;"/>
+</p>
 
 Choosing correct authentication type when logging into EA portal by following the troubleshooting steps often will fix the issue. However, below are the two possible challenges that an user can encounter when trying to follow the troubleshooting steps.
 
