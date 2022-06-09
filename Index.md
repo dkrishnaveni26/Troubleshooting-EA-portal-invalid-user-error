@@ -43,12 +43,13 @@ In general, EA portal only accepts account with primary aliases. Consider custom
 1.	Confirm if user has access to https://account.live.com with the chosen Personal Account.
 2.	In case of multiple Microsoft accounts, ensure to have the account in EA portal added as primary alias by following the below steps: <br>
 	- Login to https://account.live.com  and select ***Your Info*** tab and click on ***Edit account info*** as highlighted below <br>
-<img src="./images/image3.jpg" alt="image3" style="width:500px;" style="height:500px;"/>
+<img src="./images/image3.jpg" alt="image3" style="width:400px;" style="height:400px;"/>
 	- Update the account added in the EA portal as primary alias as shown below
 
-<img src="./images/image4.jpg" alt="image4" style="width:500px;" style="height:500px;"/>
+<img src="./images/image4.jpg" alt="image4" style="width:400px;" style="height:400px;"/>
 	- Confirm if you can now access the EA Portal.
 
 ### Next steps: 
 - Collect browser network trace by following the steps given in [this](https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fazure-portal%2Fcapture-browser-trace&data=04%7C01%7Cdkrishnaveni%40microsoftsupport.com%7C3b82329f6b9b4ae019f608da03672bd6%7Cb4c546a47dac46a6a7dded822a11efd3%7C0%7C0%7C637826038903625296%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=QB1wwYhFZHKRFBE%2BEyfmNN6JTfw0uzYXcp1%2BV87GlSU%3D&reserved=0) document.
+
 - Engage Microsoft support team by [creating an azure support request](https://docs.microsoft.com/en-us/azure/azure-portal/supportability/how-to-create-azure-support-request) for further assistance.
