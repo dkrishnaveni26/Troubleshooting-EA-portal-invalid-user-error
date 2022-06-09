@@ -1,56 +1,54 @@
-## Troubleshooting EA portal invalid user error:
-
-This document includes basic troubleshooting steps that can be performed by customer to fix ***invalid user*** error before engaging Microsoft support.
-<br>
-
-![image](./images/image1.jpg)
 ---
-### Table of Content
+title: What is Azure Backup?
+description: Provides an overview of the Azure Backup service, and how it contributes to your business continuity and disaster recovery (BCDR) strategy.
+ms.topic: overview
+ms.date: 03/11/2022
+ms.custom: mvc
+---
+# What is the Azure Backup service?
 
- --- 
-- [Troubleshooting steps](#troubleshooting-steps)
+The Azure Backup service provides simple, secure, and cost-effective solutions to back up your data and recover it from the Microsoft Azure cloud.
 
-	- [user account added with wrong authentication type](#user-account-added-with-wrong-authentication-type)
-	- [Unable to access personal account in InPrivate session](#unable-to-access-personal-account-in-inprivate-session)
-- [Engaging Azure enterprise agreement support team](#engaging-azure-enterprise-agreement-support-team) 
+> [!VIDEO https://www.youtube.com/embed/elODShatt-c]
 
-### Troubleshooting steps:
+## What can I back up?
 
-One of the most common reasons why a customer is unable to access EA portal is that the user might have same ***Microsoft account*** (personal account) as ***Work or school account***. In this scenario, below are the recommended steps to be followed,
+- **On-premises** - Back up files, folders, system state using the [Microsoft Azure Recovery Services (MARS) agent](backup-support-matrix-mars-agent.md). Or use the DPM or Azure Backup Server (MABS) agent to protect on-premises VMs ([Hyper-V](back-up-hyper-v-virtual-machines-mabs.md) and [VMware](backup-azure-backup-server-vmware.md)) and other [on-premises workloads](backup-mabs-protection-matrix.md)
+- **Azure VMs** - [Back up entire Windows/Linux VMs](backup-azure-vms-introduction.md) (using backup extensions) or back up files, folders, and system state using the [MARS agent](backup-azure-manage-mars.md).
+- **Azure Managed Disks** - [Back up Azure Managed Disks](backup-managed-disks.md)
+- **Azure Files shares** - [Back up Azure File shares to a storage account](backup-afs.md)
+- **SQL Server in Azure VMs** -  [Back up SQL Server databases running on Azure VMs](backup-azure-sql-database.md)
+- **SAP HANA databases in Azure VMs** - [Backup SAP HANA databases running on Azure VMs](backup-azure-sap-hana-database.md)
+- **Azure Database for PostgreSQL servers** -  [Back up Azure PostgreSQL databases and retain the backups for up to 10 years](backup-azure-database-postgresql.md)
+- **Azure Blobs** - [Overview of operational backup for Azure Blobs](blob-backup-overview.md)
 
-1. Determine the way account is set-up in EA portal. In general, account will be set-up in EA portal either as work or school account or as Microsoft account. 	      This can be confirmed by EA administrator. 
-2. Upon confirming the account type, clear browser cache and open an in-private (incognito) browser and try to access [enterprise portal](https://ea.azure.com/).
-3. In case if same account is set-up as both Work or school account and Microsoft account, ensure to choose the correct account type. <br>
-	-Choose ***Work or school account*** in case if the account is added as work or school account in enerprise portal.<br>
-	-Choose ***Personal account*** in case if the account is added as Microsoft account in EA portal. 
-	
-Below is a reference screenshot.
+![Azure Backup Overview](./media/backup-overview/azure-backup-overview.png)
 
-<p align="center">
-<img src="./images/image2.jpg" alt="image2" style="width:500px;" style="height:500px;"/>
-</p>
+## Why use Azure Backup?
 
-Choosing correct authentication type when logging into EA portal by following the troubleshooting steps often will fix the issue. However, below are the two possible challenges that an user can encounter when trying to follow the troubleshooting steps. 
+Azure Backup delivers these key benefits:
 
-### User account added with wrong authentication type:
+- **Offload on-premises backup**: Azure Backup offers a simple solution for backing up your on-premises resources to the cloud. Get short and long-term backup without the need to deploy complex on-premises backup solutions.
+- **Back up Azure IaaS VMs**: Azure Backup provides independent and isolated backups to guard against accidental destruction of original data. Backups are stored in a Recovery Services vault with built-in management of recovery points. Configuration and scalability are simple, backups are optimized, and you can easily restore as needed.
+- **Scale easily** - Azure Backup uses the underlying power and unlimited scale of the Azure cloud to deliver high-availability with no maintenance or monitoring overhead.
+- **Get unlimited data transfer**: Azure Backup doesn't limit the amount of inbound or outbound data you transfer, or charge for the data that's transferred.
+  - Outbound data refers to data transferred from a Recovery Services vault during a restore operation.
+  - If you perform an offline initial backup using the Azure Import/Export service to import large amounts of data, there's a cost associated with inbound data.  [Learn more](backup-azure-backup-import-export.md).
+- **Keep data secure**: Azure Backup provides solutions for securing data [in transit](backup-azure-security-feature.md) and [at rest](backup-azure-security-feature-cloud.md).
+- **Centralized monitoring and management**: Azure Backup provides [built-in monitoring and alerting capabilities](backup-azure-monitoring-built-in-monitor.md) in a Recovery Services vault. These capabilities are available without any additional management infrastructure. You can also increase the scale of your monitoring and reporting by [using Azure Monitor](backup-azure-monitoring-use-azuremonitor.md).
+- **Get app-consistent backups**: An application-consistent backup means a recovery point has all required data to restore the backup copy. Azure Backup provides application-consistent backups, which ensure additional fixes aren't required to restore the data. Restoring application-consistent data reduces the restoration time, allowing you to quickly return to a running state.
+- **Retain short and long-term data**: You can use [Recovery Services vaults](backup-azure-recovery-services-vault-overview.md) for short-term and long-term data retention.
+- **Automatic storage management** - Hybrid environments often require heterogeneous storage - some on-premises and some in the cloud. With Azure Backup, there's no cost for using on-premises storage devices. Azure Backup automatically allocates and manages backup storage, and it uses a pay-as-you-use model. So you only pay for the storage you consume. [Learn more](https://azure.microsoft.com/pricing/details/backup) about pricing.
+- **Multiple storage options** - Azure Backup offers three types of replication to keep your storage/data highly available.
+  - [Locally redundant storage (LRS)](../storage/common/storage-redundancy.md#locally-redundant-storage) replicates your data three times (it creates three copies of your data) in a storage scale unit in a datacenter. All copies of the data exist within the same region. LRS is a low-cost option for protecting your data from local hardware failures.
+  - [Geo-redundant storage (GRS)](../storage/common/storage-redundancy.md#geo-redundant-storage) is the default and recommended replication option. GRS replicates your data to a secondary region (hundreds of miles away from the primary location of the source data). GRS costs more than LRS, but GRS provides a higher level of durability for your data, even if there's a regional outage.
+  - [Zone-redundant storage (ZRS)](../storage/common/storage-redundancy.md#zone-redundant-storage) replicates your data in [availability zones](../availability-zones/az-overview.md#availability-zones), guaranteeing data residency and resiliency in the same region. ZRS has no downtime. So your critical workloads that require [data residency](https://azure.microsoft.com/resources/achieving-compliant-data-residency-and-security-with-azure/), and must have no downtime, can be backed up in ZRS.
 
-Consider user is account owner for a subscription in an EA enrolment and is unable to access the EA portal. Please check with the EA admin if the account was added correctly with correct authentication type. If the user who is unable to access the EA portal is EA admin, reach out to another EA admin to add the correct account if user is the only EA admin support can make the changes on behalf of user.
+## How Azure Backup protects from ransomware?
 
-### Unable to access Personal account in InPrivate session: 
+Azure Backup helps protect your critical business systems and backup data against a ransomware attack by implementing preventive measures and providing tools that protect your organization from every step that attackers take to infiltrate your systems. It provides security to your backup environment, both when your data is in transit and at rest. [Learn more](../security/fundamentals/backup-plan-to-protect-against-ransomware.md)
 
-In general, EA portal only accepts account with primary aliases. Consider customer account is added as Microsoft account in EA portal and when user is trying to perform step 3, if Personal account option is failing in *InPrivate* session, please follow the below steps:
+## Next steps
 
-1.	Confirm if user has access to https://account.live.com with the chosen Personal Account.
-2.	In case of multiple Microsoft accounts, ensure to have the account in EA portal added as primary alias by following the below steps: <br>
-
-	- Login to https://account.live.com  and select ***Your Info*** tab and click on ***Edit account info*** as highlighted below <br>
-
-![image](./images/image3.jpg)
-	- Update the account added in the EA portal as primary alias as shown below
-
-![image](./images/image4.jpg)
-	- Confirm if you can now access the EA Portal.
-
-### Engaging Azure enterprise agreement support team:
-
-When Customer account is added as Microsoft account in EA portal where customer is able to access https://account.live.com as the primary alias to confirm the access and still unable to access EA portal then follow the steps given in [this](https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fazure-portal%2Fcapture-browser-trace&data=04%7C01%7Cdkrishnaveni%40microsoftsupport.com%7C3b82329f6b9b4ae019f608da03672bd6%7Cb4c546a47dac46a6a7dded822a11efd3%7C0%7C0%7C637826038903625296%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=QB1wwYhFZHKRFBE%2BEyfmNN6JTfw0uzYXcp1%2BV87GlSU%3D&reserved=0) document to collect the network browser trace and engaging Microsoft support team by [creating an azure support request](https://docs.microsoft.com/en-us/azure/azure-portal/supportability/how-to-create-azure-support-request) for further assistance.
+- [Review](backup-architecture.md) the architecture and components for different backup scenarios.
+- [Verify](backup-support-matrix.md) support requirements and limitations for backup, and for [Azure VM backup](backup-support-matrix-iaas.md).
