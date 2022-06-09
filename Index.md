@@ -34,7 +34,7 @@ Choosing correct authentication type when logging into EA portal by following th
 
 ### User account added with wrong authentication type:
 
-Consider user is account owner for a subscription in an EA enrolment and is unable to access the EA portal. Please check with the EA admin if the account was added correctly with correct authentication type. If the user who is unable to access the EA portal is EA admin, reach out to another EA admin to add the correct account if user is the only EA admin support can make the changes on behalf of user.
+Consider user is account owner for a subscription in an EA enrolment and is unable to access the EA portal. Check with the EA admin if the account was added correctly with correct authentication type. If the user who is unable to access the EA portal is EA admin, reach out to another EA admin to add the correct account if user is the only EA admin support can make the changes on behalf of user.
 
 ### Unable to access Personal account in InPrivate session: 
 
