@@ -42,7 +42,6 @@ In general, EA portal only accepts account with primary aliases. Consider custom
 
 1.	Confirm if user has access to https://account.live.com with the chosen Personal Account.
 2.	In case of multiple Microsoft accounts, ensure to have the account in EA portal added as primary alias by following the below steps: <br>
-
 	- Login to https://account.live.com  and select ***Your Info*** tab and click on ***Edit account info*** as highlighted below <br>
 
 ![image](./images/image3.jpg)
