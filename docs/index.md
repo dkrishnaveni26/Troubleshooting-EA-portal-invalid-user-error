@@ -44,7 +44,7 @@ In general, EA portal only accepts account with primary aliases. Consider custom
 2.	In case of multiple Microsoft accounts, ensure to have the account in EA portal added as primary alias by following the below steps: <br>
 - Login to https://account.live.com  and select ***Your Info*** tab and click on ***Edit account info*** as highlighted below
 
-<img src="./images/image3.jpg" alt="image3" style="width:250px;" style="height:100px;"/>
+<img src="./images/image3.jpg" alt="image3" style="width:300px;" style="height:100px;"/>
 - Update the account added in the EA portal as primary alias as shown below
 
 <img src="./images/image4.jpg" alt="image4" style="width:250px;" style="height:250px;"/>
