@@ -14,7 +14,7 @@ This document includes basic troubleshooting steps that can be performed by cust
 	- [Unable to access personal account in InPrivate session](#unable-to-access-personal-account-in-inprivate-session)
 - [Engaging Azure enterprise agreement support team](#engaging-azure-enterprise-agreement-support-team) 
 
-### Troubleshooting steps:
+### Troubleshooting steps
 
 One of the most common reasons why a customer is unable to access EA portal is that the user might have same ***Microsoft account*** (personal account) as ***Work or school account***. In this scenario, below are the recommended steps to be followed,
 
@@ -32,11 +32,11 @@ Below is a reference screenshot.
 
 Choosing correct authentication type when logging into EA portal by following the troubleshooting steps often will fix the issue. However, below are the two possible challenges that an user can encounter when trying to follow the troubleshooting steps. 
 
-### User account added with wrong authentication type:
+### User account added with wrong authentication type
 
 Consider user is account owner for a subscription in an EA enrolment and is unable to access the EA portal. Check with the EA admin if the account was added correctly with correct authentication type. If the user who is unable to access the EA portal is EA admin, reach out to another EA admin to add the correct account if user is the only EA admin support can make the changes on behalf of user.
 
-### Unable to access Personal account in InPrivate session: 
+### Unable to access Personal account in InPrivate session
 
 In general, EA portal only accepts account with primary aliases. Consider customer account is added as Microsoft account in EA portal and when user is trying to perform step 3, if Personal account option is failing in *InPrivate* session, please follow the below steps:
 
@@ -48,8 +48,8 @@ In general, EA portal only accepts account with primary aliases. Consider custom
 
 <img src="./images/image4.jpg" alt="image4" style="width:400px;" style="height:400px;"/>
 	- Confirm if you can now access the EA Portal.
-
-### Next steps: 
+	
+### Next steps 
 
 - Collect browser network trace by following the steps given in [this](https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fazure-portal%2Fcapture-browser-trace&data=04%7C01%7Cdkrishnaveni%40microsoftsupport.com%7C3b82329f6b9b4ae019f608da03672bd6%7Cb4c546a47dac46a6a7dded822a11efd3%7C0%7C0%7C637826038903625296%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=QB1wwYhFZHKRFBE%2BEyfmNN6JTfw0uzYXcp1%2BV87GlSU%3D&reserved=0) document.
 
