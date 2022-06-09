@@ -54,3 +54,5 @@ In general, EA portal only accepts account with primary aliases. Consider custom
 - Collect browser network trace by following the steps given in [this](https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fazure-portal%2Fcapture-browser-trace&data=04%7C01%7Cdkrishnaveni%40microsoftsupport.com%7C3b82329f6b9b4ae019f608da03672bd6%7Cb4c546a47dac46a6a7dded822a11efd3%7C0%7C0%7C637826038903625296%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=QB1wwYhFZHKRFBE%2BEyfmNN6JTfw0uzYXcp1%2BV87GlSU%3D&reserved=0) document.
 
 - Engage Microsoft support team by [creating an azure support request](https://docs.microsoft.com/en-us/azure/azure-portal/supportability/how-to-create-azure-support-request) for further assistance.
+
+- [Troubleshooting steps](#troubleshooting-steps)
