@@ -12,7 +12,7 @@ This document includes basic troubleshooting steps that can be performed by cust
 
 	- [user account added with wrong authentication type](#user-account-added-with-wrong-authentication-type)
 	- [Unable to access personal account in InPrivate session](#unable-to-access-personal-account-in-inprivate-session)
-- [Engaging Azure enterprise agreement support team](#engaging-azure-enterprise-agreement-support-team) 
+- [Next steps](#next-steps) 
 
 ### Troubleshooting steps
 
